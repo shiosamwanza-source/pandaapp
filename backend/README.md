@@ -22,3 +22,29 @@ We only store:
 ✔ history
 ✔ proof
 ✔ organization
+## API Structure (MVP)
+
+The backend exposes a simple REST API.
+
+### 1️⃣ Auth
+- POST /auth/register
+- POST /auth/login
+- GET  /auth/me
+
+### 2️⃣ RFQs (Request for Quote)
+- POST /rfqs
+- GET  /rfqs
+- GET  /rfqs/{id}
+
+### 3️⃣ Orders + Timeline
+- POST /orders
+- GET  /orders
+- GET  /orders/{id}
+
+### 4️⃣ Documents
+- POST /documents (upload + attach to order)
+- GET  /documents/{id}
+
+### 5️⃣ Live Verification Scheduling
+- POST /verification/request
+- GET  /verification/my-requests
