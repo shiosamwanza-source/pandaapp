@@ -1,0 +1,10 @@
+## Tech stack
+
+The PANDA backend will be built with:
+
+- Go (API)
+- PostgreSQL (database)
+- JSON REST API
+- Docker (later, for deployment)
+
+Simple, fast, and easy to maintain.
