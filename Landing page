@@ -1,0 +1,108 @@
+family-healthy.jpg
+
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>afyaboratz — Afya Kwanza</title>
+
+<style>
+body{margin:0;background:#f7faf6;font-family:Arial;color:#1f3d2b}
+header{background:#2f6d3a;color:white;text-align:center;padding:26px}
+h1{margin:0}
+.hero{width:100%;max-height:330px;object-fit:cover}
+.container{max-width:900px;margin:auto;padding:18px}
+.card{background:white;border-radius:16px;padding:18px;margin:12px 0;box-shadow:0 14px 28px rgba(0,0,0,.05)}
+.list li{margin-bottom:6px}
+.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.item{background:#f0f6ef;border:1px solid #d9e7d6;border-radius:12px;padding:12px}
+.price{color:#2f6d3a;font-weight:bold}
+.whatsapp{
+display:block;background:#25D366;color:white;
+text-decoration:none;padding:14px;border-radius:12px;
+text-align:center;font-weight:bold;font-size:17px;
+}
+.note{font-size:13px;color:#486a51;text-align:center;margin-top:10px}
+.section-title{margin-top:0}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>afyaboratz</h1>
+  <p>Virutubisho vya Neolife (GNLD) — salama & vimehakikiwa</p>
+</header>
+
+<!-- ⭐ HERO IMAGE -->
+<img
+  class="hero"
+  src="family-healthy.jpg"
+  alt="Familia yenye afya inafurahia maisha" />
+
+<div class="container">
+
+  <div class="card">
+    <h2 class="section-title">Kwa Nini Utuamini</h2>
+    <ul class="list">
+      <li>Ushauri wa kibinafsi</li>
+      <li>Mapendekezo sahihi kulingana na hali yako</li>
+      <li>Punguzo kwa members</li>
+      <li>Delivery popote ulipo</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2 class="section-title">Bidhaa Maarufu</h2>
+
+    <div class="products">
+
+      <div class="item">
+        <strong>Pro Vitality</strong><br>
+        Kinga & nishati ya mwili mwezi mzima.<br>
+        <span class="price">Tsh 226,000</span>
+      </div>
+
+      <div class="item">
+        <strong>Tre-en-en</strong><br>
+        Husaidia seli kufanya kazi vizuri.
+        <span class="price">Tsh 90,000</span>
+      </div>
+
+      <div class="item">
+        <strong>Botanical Balance</strong><br>
+        Husaidia kusawazisha sukari kwa wanaokabiliwa na kisukari.
+        <span class="price">Tsh 80,000</span>
+      </div>
+
+      <div class="item">
+        <strong>Feminine Formula</strong><br>
+        Afya ya homoni & kupunguza maumivu ya hedhi.
+        <span class="price">Tsh 115,000</span>
+      </div>
+
+    </div>
+
+    <p><em>Bidhaa nyingine nyingi zinapatikana — tuulize WhatsApp.</em></p>
+  </div>
+
+  <div class="card">
+    <h2 class="section-title">Wasiliana WhatsApp</h2>
+    <p>Bofya hapa kuzungumza moja kwa moja:</p>
+
+    <a class="whatsapp"
+       href="https://wa.me/255715329032"
+       target="_blank">
+       📲 Andika WhatsApp Sasa
+    </a>
+
+    <div class="note">
+      Namba rasmi: +255 715 329 032
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
