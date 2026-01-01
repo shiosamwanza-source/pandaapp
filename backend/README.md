@@ -48,3 +48,52 @@ The backend exposes a simple REST API.
 ### 5️⃣ Live Verification Scheduling
 - POST /verification/request
 - GET  /verification/my-requests
+- users
+------
+id
+name
+email
+password_hash
+created_at
+
+rfqs
+------
+id
+user_id
+title
+description
+status        (draft | sent | quoted | closed)
+created_at
+
+orders
+------
+id
+user_id
+rfq_id
+status        (open | in_progress | completed | cancelled)
+created_at
+
+order_timeline
+------
+id
+order_id
+label        (Example: "Deposit paid", "Production started")
+notes
+created_at
+
+documents
+------
+id
+order_id
+file_url
+doc_type      (invoice, receipt, contract, photo, other)
+created_at
+
+verifications
+------
+id
+order_id
+requested_by
+status        (pending | approved | rejected | completed)
+scheduled_at
+created_at
